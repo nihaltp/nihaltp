@@ -28,3 +28,7 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=nihaltp&theme=dracula&no-bg=true&column=4&margin-w=4&margin-h=4)](https://github.com/nihaltp)
 
 ![Profile Hits](https://komarev.com/ghpvc/?username=nihaltp&color=009dff&label=PROFILE+HITS&style=for-the-badge)
+
+<a href="https://www.linkedin.com/in/tp-nihal/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
