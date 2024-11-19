@@ -4,6 +4,8 @@
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical)
 
+![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=highcontrast)
+
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nihaltp&layout=compact&theme=radical)
 
 ![Weekly Development Breakdown](https://github-readme-stats.vercel.app/api/wakatime?username=nihaltp&layout=compact&theme=radical)
@@ -11,14 +13,13 @@
 <!--
 [![wakatime](https://wakatime.com/badge/user/nihaltp.svg)](https://wakatime.com/@nihaltp)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=highcontrast)
-
 # 🔥 My Activity Graph:
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=nihaltp&theme=react-dark)
 
-![GitHub Contributions](https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&include_all_commits=true)
 ![GitHub Contributions](https://github.com/nihaltp/nihaltp/blob/main/github-contribution.svg)
+
+<a href="https://wakatime.com"><img src="https://wakatime.com/share/@nihaltp/2b595a71-5d04-4750-a578-7b3b885ea229.png" /></a>
 -->
 
 # 🔝 Top Contributed Repo
