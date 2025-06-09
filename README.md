@@ -4,7 +4,7 @@
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=highcontrast)
+![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=false)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nihaltp&layout=compact&theme=radical)
 
@@ -33,3 +33,6 @@
 <a href="https://www.linkedin.com/in/tp-nihal/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
+
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
