@@ -36,3 +36,7 @@
 
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+## 🐍 Watch my contributions get eaten by a snake!
+
+![Snake animation](https://github.com/nihaltp/nihaltp/blob/output/github-contribution-grid-snake.svg)
