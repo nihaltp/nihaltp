@@ -1,5 +1,8 @@
 name: Smart Snake Generator
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *"  # Runs daily at 12:00 AM UTC = 5:30 AM IST
