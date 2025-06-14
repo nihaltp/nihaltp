@@ -1,0 +1,2 @@
+          data-to="2025-06-14 23:59:59 UTC"
+                <td tabindex="0" data-ix="52" aria-selected="false" aria-describedby="contribution-graph-legend-level-0" style="width: 10px" data-date="2025-06-14" id="contribution-day-component-6-52" data-level="0" role="gridcell" data-view-component="true" class="ContributionCalendar-day"></td>
