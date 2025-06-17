@@ -11,35 +11,37 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
+    
     steps:
       - name: Check if you made a contribution today
         id: check_graph
         run: |
-          TODAY=$(date -u +%F)
-          curl -s https://github.com/users/nihaltp/contributions | grep "$TODAY" > today_line.txt
-
-          if grep -q 'data-count="0"' today_line.txt; then
+          YESTERDAY=$(date -u -d "yesterday" +%F)
+          CONTRIB_LINE=$(curl -s https://github.com/users/nihaltp/contributions | grep "data-date=\"$YESTERDAY\"")
+          
+          echo "Checked date: $YESTERDAY"
+          echo "Contribution line: $CONTRIB_LINE"
+          
+          if echo "$CONTRIB_LINE" | grep -q 'data-count="0"'; then
             echo "No contributions today"
             echo "contributed=false" >> $GITHUB_OUTPUT
           else
             echo "You have contributed today!"
             echo "contributed=true" >> $GITHUB_OUTPUT
           fi
-
+      
       - name: Exit if no contributions
         if: steps.check_graph.outputs.contributed != 'true'
         run: |
           echo "Skipping snake animation because you didn't contribute today."
           exit 0
-
+      
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: nihaltp
-          outputs: |
-            ./github-contribution-grid-snake.svg
-
+          output_path: ./github-contribution-grid-snake.svg
+      
       - name: Push the SVG to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
