@@ -31,7 +31,7 @@ jobs:
           fi
       
       - name: Exit if no contributions
-        if: steps.check_graph.outputs.contributed != 'true'
+        if: steps.check_graph.outputs.contributed == 'false'
         run: |
           echo "Skipping snake animation because you didn't contribute yesterday."
           exit 0
