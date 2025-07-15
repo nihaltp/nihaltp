@@ -2,16 +2,21 @@
 
 # 📊 My GitHub Stats:
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=false)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nihaltp&layout=compact&theme=radical)
-
-![Weekly Development Breakdown](https://github-readme-stats.vercel.app/api/wakatime?username=nihaltp&layout=compact&theme=radical)
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=radical)
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=radical)
+![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=radical)
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=radical)
+![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=radical&utcOffset=5.3)
 
 <!--
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=nihaltp&layout=compact&theme=radical&hide_border=true)
+
 [![wakatime](https://wakatime.com/badge/user/nihaltp.svg)](https://wakatime.com/@nihaltp)
+
+![Weekly Development Breakdown](https://github-readme-stats.vercel.app/api/wakatime?username=nihaltp&layout=compact&theme=radical&hide_border=true)
 
 # 🔥 My Activity Graph:
 
@@ -23,10 +28,10 @@
 -->
 
 # 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=dracula&combine_all_yearly_contributions=true)
+![Top Contributed Repository](https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true)
 
 # 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=nihaltp&theme=dracula&no-bg=true&column=4&margin-w=4&margin-h=4)](https://github.com/nihaltp)
+[![trophy](https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true)](https://github.com/nihaltp)
 
 ![Profile Hits](https://komarev.com/ghpvc/?username=nihaltp&color=009dff&label=PROFILE+HITS&style=for-the-badge)
 
@@ -36,7 +41,5 @@
 
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-## 🐍 Watch my contributions get eaten by a snake!
 
 ![Snake animation](https://github.com/nihaltp/nihaltp/blob/output/github-contribution-grid-snake.svg)
