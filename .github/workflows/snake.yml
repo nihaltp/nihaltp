@@ -22,7 +22,8 @@ jobs:
           echo "Checked date: $YESTERDAY"
           echo "Contribution line: $CONTRIB_LINE"
           
-          if echo "$CONTRIB_LINE" | grep -q 'data-count="0"'; then
+          # Check if the contribution line indicates 0 contributions (data-level="0")
+          if echo "$CONTRIB_LINE" | grep -q 'data-level="0"'; then
             echo "No contributions yesterday"
             echo "contributed=false" >> $GITHUB_OUTPUT
           else
