@@ -5,13 +5,12 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true)
 ![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=true)
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true" height="250" alt="Activity Graph" />
-
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=radical)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=radical)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=radical)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=radical)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=radical&utcOffset=5.3)
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true" height="250" alt="Activity Graph" />
 
 <!--
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=nihaltp&layout=compact&theme=radical&hide_border=true)
