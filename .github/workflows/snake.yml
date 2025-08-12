@@ -4,39 +4,14 @@ permissions:
   contents: write
 
 on:
-  schedule:
-    - cron: "25 18 * * *"  # Runs daily at 6:25 PM UTC = 11:55 PM IST
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Check if you made a contribution yesterday
-        id: check_graph
-        run: |
-          YESTERDAY=$(date -u -d "yesterday" +%F)
-          CONTRIB_LINE=$(curl -s https://github.com/users/nihaltp/contributions | grep "data-date=\"$YESTERDAY\"" || true)
-          
-          echo "Checked date: $YESTERDAY"
-          echo "Contribution line: $CONTRIB_LINE"
-          
-          # Check if the contribution line indicates 0 contributions (data-level="0")
-          if [ -z "$CONTRIB_LINE" ] || echo "$CONTRIB_LINE" | grep -q 'data-level="0"'; then
-            echo "No contributions yesterday"
-            echo "contributed=false" >> $GITHUB_OUTPUT
-          else
-            echo "You have contributed yesterday!"
-            echo "contributed=true" >> $GITHUB_OUTPUT
-          fi
-      
-      - name: Exit if no contributions
-        if: steps.check_graph.outputs.contributed == 'false'
-        run: |
-          echo "Skipping snake animation because you didn't contribute yesterday."
-          exit 0
-      
       - name: Generate Snake SVG
         uses: Platane/snk@v3.3.0
         with:
