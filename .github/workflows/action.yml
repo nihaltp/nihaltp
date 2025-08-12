@@ -31,6 +31,8 @@ jobs:
           RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
                            -X POST -d "$QUERY" https://api.github.com/graphql)
 
+          echo "$RESPONSE"
+
           COMMITS=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalCommitContributions')
           PRS=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalPullRequestContributions')
           ISSUES=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalIssueContributions')
