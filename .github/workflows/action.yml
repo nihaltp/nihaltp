@@ -27,7 +27,7 @@ jobs:
             --arg start "$START" \
             --arg end "$END" \
             --arg username "$USERNAME" \
-            '{query: "query { user(login: \($username)) { contributionsCollection(from: \($start), to: \($end)) { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions } } }"}')
+            '{query: "query { user(login: \"\($username)\") { contributionsCollection(from: \"\($start)\", to: \"\($end)\") { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions } } }"}')
 
           RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
                            -X POST -d "$QUERY" https://api.github.com/graphql)
