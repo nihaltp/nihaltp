@@ -1,4 +1,7 @@
-name: Check for Recent Contribution in the last 30 minutes
+name: Recent Contributions
+
+permissions:
+  contents: write
 
 on:
   schedule:
