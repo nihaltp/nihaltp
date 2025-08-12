@@ -17,13 +17,13 @@ jobs:
         id: check_graph
         run: |
           YESTERDAY=$(date -u -d "yesterday" +%F)
-          CONTRIB_LINE=$(curl -s https://github.com/users/nihaltp/contributions | grep "data-date=\"$YESTERDAY\"")
+          CONTRIB_LINE=$(curl -s https://github.com/users/nihaltp/contributions | grep "data-date=\"$YESTERDAY\"" || true)
           
           echo "Checked date: $YESTERDAY"
           echo "Contribution line: $CONTRIB_LINE"
           
           # Check if the contribution line indicates 0 contributions (data-level="0")
-          if echo "$CONTRIB_LINE" | grep -q 'data-level="0"'; then
+          if [ -z "$CONTRIB_LINE" ] || echo "$CONTRIB_LINE" | grep -q 'data-level="0"'; then
             echo "No contributions yesterday"
             echo "contributed=false" >> $GITHUB_OUTPUT
           else
