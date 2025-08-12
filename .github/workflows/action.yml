@@ -23,6 +23,9 @@ jobs:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
           USERNAME: nihaltp
         run: |
+          START=$(date -u -d '30 minutes ago' +"%Y-%m-%dT%H:%M:%SZ")
+          END=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
           QUERY=$(jq -n \
             --arg start "$START" \
             --arg end "$END" \
