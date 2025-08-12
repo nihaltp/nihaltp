@@ -23,10 +23,11 @@ jobs:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
           USERNAME: nihaltp
         run: |
-          START=$(date -u -d '30 minutes ago' +"%Y-%m-%dT%H:%M:%SZ")
-          END=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-
-          QUERY=$(printf '{"query": "query { user(login: \"%s\") { contributionsCollection(from: \"%s\", to: \"%s\") { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions } } }"}' "$USERNAME" "$START" "$END")
+          QUERY=$(jq -n \
+            --arg start "$START" \
+            --arg end "$END" \
+            --arg username "$USERNAME" \
+            '{query: "query { user(login: \($username)) { contributionsCollection(from: \($start), to: \($end)) { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions } } }"}')
 
           RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
                            -X POST -d "$QUERY" https://api.github.com/graphql)
