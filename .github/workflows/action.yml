@@ -26,13 +26,10 @@ jobs:
           START=$(date -u -d '30 minutes ago' +"%Y-%m-%dT%H:%M:%SZ")
           END=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
-          QUERY=$(jq -n \
-            --arg start "$START" \
-            --arg end "$END" \
-            --arg username "$USERNAME" \
-            '{query: "query { user(login: \""+$username+"\") { contributionsCollection(from: \""+$start+"\", to: \""+$end+"\") { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions } } }"}')
+          QUERY=$(printf '{"query": "query { user(login: \"%s\") { contributionsCollection(from: \"%s\", to: \"%s\") { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions } } }"}' "$USERNAME" "$START" "$END")
 
-          RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" -X POST -d "$QUERY" https://api.github.com/graphql)
+          RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" \
+                           -X POST -d "$QUERY" https://api.github.com/graphql)
 
           COMMITS=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalCommitContributions')
           PRS=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalPullRequestContributions')
@@ -56,4 +53,6 @@ jobs:
   run_snake:
     needs: check_contribution
     if: needs.check_contribution.outputs.contributed == 'true'
+    permissions:
+      contents: write
     uses: ./.github/workflows/snake.yml
