@@ -1,0 +1,56 @@
+name: Check for Recent Contribution in the last 30 minutes
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # every 30 minutes
+  workflow_dispatch:
+
+jobs:
+  check_contribution:
+    runs-on: ubuntu-latest
+    outputs:
+      contributed: ${{ steps.check.outputs.contributed }}
+    steps:
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Check recent contributions
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          USERNAME: nihaltp
+        run: |
+          START=$(date -u -d '30 minutes ago' +"%Y-%m-%dT%H:%M:%SZ")
+          END=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          QUERY=$(jq -n \
+            --arg start "$START" \
+            --arg end "$END" \
+            --arg username "$USERNAME" \
+            '{query: "query { user(login: \""+$username+"\") { contributionsCollection(from: \""+$start+"\", to: \""+$end+"\") { totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions } } }"}')
+
+          RESPONSE=$(curl -s -H "Authorization: bearer $GH_TOKEN" -X POST -d "$QUERY" https://api.github.com/graphql)
+
+          COMMITS=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalCommitContributions')
+          PRS=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalPullRequestContributions')
+          ISSUES=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalIssueContributions')
+          REVIEWS=$(echo "$RESPONSE" | jq '.data.user.contributionsCollection.totalPullRequestReviewContributions')
+
+          TOTAL=$((COMMITS + PRS + ISSUES + REVIEWS))
+
+          echo "Commits: $COMMITS"
+          echo "PRs: $PRS"
+          echo "Issues: $ISSUES"
+          echo "Reviews: $REVIEWS"
+          echo "Total contributions in last 30 min: $TOTAL"
+
+          if [ "$TOTAL" -gt 0 ]; then
+            echo "contributed=true" >> $GITHUB_OUTPUT
+          else
+            echo "contributed=false" >> $GITHUB_OUTPUT
+          fi
+
+  run_snake:
+    needs: check_contribution
+    if: needs.check_contribution.outputs.contributed == 'true'
+    uses: ./.github/workflows/snake.yml
