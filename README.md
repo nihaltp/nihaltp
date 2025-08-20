@@ -29,7 +29,7 @@
 -->
 
 # 🔝 Top Contributed Repo
-![Top Contributed Repository](https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true)
+![Top Contributed Repository](https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false)
 
 # 🏆 GitHub Trophies
 [![trophy](https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true)](https://github.com/nihaltp)
