@@ -34,12 +34,13 @@
 # 🏆 GitHub Trophies
 [![trophy](https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true)](https://github.com/nihaltp)
 
-![Profile Hits](https://komarev.com/ghpvc/?username=nihaltp&color=009dff&label=PROFILE+HITS&style=for-the-badge)
+## Connect
 
-<a href="https://www.linkedin.com/in/tp-nihal/" target="_blank">
+<a href="https://www.linkedin.com/in/nihal-tp/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 
+![Profile Hits](https://komarev.com/ghpvc/?username=nihaltp&color=009dff&label=PROFILE+HITS&style=for-the-badge)
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 ![Snake animation](https://github.com/nihaltp/nihaltp/blob/output/github-contribution-grid-snake.svg)
