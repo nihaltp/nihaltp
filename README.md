@@ -44,3 +44,12 @@
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 ![Snake animation](https://github.com/nihaltp/nihaltp/blob/output/github-contribution-grid-snake.svg)
+
+<details>
+  <summary>
+    🏅 Holopin Badges
+  </summary>
+  <a href="https://holopin.io/@nihaltp" title="View Holopin Profile">
+    <img src="https://holopin.me/nihaltp" alt="An image of @nihaltp's Holopin badges"/>
+  </a>
+</details>
