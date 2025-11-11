@@ -1,0 +1,16 @@
+name: Run Daily Metrics
+
+on:
+  workflow_call:
+    secrets:
+      METRICS_TOKEN:
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  run_habits:
+    name: Run Habits
+    uses: ./.github/workflows/habits.yml
+    secrets: inherit

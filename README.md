@@ -47,6 +47,13 @@
 
 <details>
   <summary>
+    My Metrics
+  </summary>
+  <img src="https://github.com/nihaltp/nihaltp/blob/output/metrics/habits.svg" alt="Metrics about Habits"/>
+</details>
+
+<details>
+  <summary>
     🏅 Holopin Badges
   </summary>
   <a href="https://holopin.io/@nihaltp" title="View Holopin Profile">
