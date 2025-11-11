@@ -5,6 +5,7 @@ on:
     secrets:
       METRICS_TOKEN:
         required: true
+  workflow_dispatch:
 
 permissions:
   contents: write
