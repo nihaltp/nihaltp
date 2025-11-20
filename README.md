@@ -45,9 +45,9 @@
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nihaltp/nihaltp/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/nihaltp/nihaltp/blob/output/github-snake-light.svg" />
-  <img alt="github-snake" src="https://github.com/nihaltp/nihaltp/blob/output/github-snake-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-light.svg" />
+  <img alt="github-snake" src="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-dark.svg" />
 </picture>
 
 <details>
