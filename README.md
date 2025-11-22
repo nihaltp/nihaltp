@@ -2,8 +2,26 @@
 
 # 📊 My GitHub Stats:
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true)
-![GitHub Streak](https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=true)
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=buefy&hide_border=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />  <img src="https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true" />
+</picture>
+<picture>
+  <source
+    srcset="https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://streak-stats.demolab.com?user=nihaltp&theme=buefy&hide_border=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />  <img src="https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=true" />
+</picture>
 
 <picture>
   <source
@@ -80,10 +98,30 @@
 -->
 
 # 🔝 Top Contributed Repo
-![Top Contributed Repository](https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false)
+<picture>
+  <source
+    srcset="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=buefy&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false" />
+</picture>
 
 # 🏆 GitHub Trophies
-[![trophy](https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true)](https://github.com/nihaltp)
+<picture>
+  <source
+    srcset="https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-profile-trophy.vercel.app/?username=nihaltp&theme=buefy&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true" />
+</picture>
 
 ## Connect
 
