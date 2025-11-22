@@ -79,7 +79,17 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=radical&utcOffset=5.3" />
 </picture>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true" height="250" alt="Activity Graph" />
+<picture>
+  <source
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&hide_border=true&area=true&hide_title=true&bg_color=ffffff&color=000000&line=7957d5&point=7957d5"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true" height="250" alt="Activity Graph" />
+</picture>
 
 <!--
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=nihaltp&layout=compact&theme=radical&hide_border=true)
