@@ -141,7 +141,17 @@
 
 ![Profile Hits](https://komarev.com/ghpvc/?username=nihaltp&color=009dff&label=PROFILE+HITS&style=for-the-badge)
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<picture>
+  <source
+    srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=ffffff&quoteColor=7957d5&authorColor=ff3860&symbolColor=f1e05a"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-dark.svg" />
