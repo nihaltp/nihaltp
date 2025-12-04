@@ -91,22 +91,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true" height="250" alt="Activity Graph" />
 </picture>
 
-<!--
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=nihaltp&layout=compact&theme=radical&hide_border=true)
-
-[![wakatime](https://wakatime.com/badge/user/nihaltp.svg)](https://wakatime.com/@nihaltp)
-
-![Weekly Development Breakdown](https://github-readme-stats.vercel.app/api/wakatime?username=nihaltp&layout=compact&theme=radical&hide_border=true)
-
-# 🔥 My Activity Graph:
-
-![GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=nihaltp&theme=react-dark)
-
-![GitHub Contributions](https://github.com/nihaltp/nihaltp/blob/main/github-contribution.svg)
-
-<a href="https://wakatime.com"><img src="https://wakatime.com/share/@nihaltp/2b595a71-5d04-4750-a578-7b3b885ea229.png" /></a>
--->
-
 # 🔝 Top Contributed Repo
 <picture>
   <source
