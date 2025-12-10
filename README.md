@@ -158,3 +158,16 @@
     <img src="https://holopin.me/nihaltp" alt="An image of @nihaltp's Holopin badges"/>
   </a>
 </details>
+
+<details>
+  <summary>
+    Currently Listening to
+  </summary>
+  <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&redirect=true">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
+      <source media="(prefers-color-scheme: light)" srcset="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=ffffff&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
+      <img alt="Spotify Currently Playing" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
+    </picture>
+  </a>
+</details>
