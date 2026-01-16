@@ -14,15 +14,15 @@
 </picture>
 <picture>
   <source
-    src="https://streak-stats.demolab.com?user=nihaltp&theme=radical&hide_border=true"
+    src="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=radical&hide_border=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://streak-stats.demolab.com?user=nihaltp&theme=buefy&hide_border=true"
+    src="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=buefy&hide_border=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   <img
-    src="https://streak-stats.demolab.com?user=nihaltp&theme=buefy&hide_border=true"
+    src="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=buefy&hide_border=true"
     alt="GitHub streak stats"
   />
 </picture>
