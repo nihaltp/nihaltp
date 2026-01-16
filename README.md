@@ -4,13 +4,13 @@
 
 <picture>
   <source
-    src="https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true"
+    src="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=buefy&hide_border=true"
+    src="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=buefy&hide_border=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />  <img src="https://github-readme-stats.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true" />
+  />  <img src="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true" />
 </picture>
 <picture>
   <source
