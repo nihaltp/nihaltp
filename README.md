@@ -156,6 +156,19 @@
 
 <details>
   <summary>
+    Monkeytype
+  </summary>
+  <a href="https://monkeytype.com/profile/nihaltp" title="View Monkeytype Profile">
+    <img src="https://img.shields.io/badge/Monkeytype-FECC00?style=for-the-badge&logo=monkeytype&logoColor=black" alt="Monkeytype Profile"/>
+  </a>
+
+  <a href="https://monkeytype.com/profile/nihaltp" title="View Monkeytype Profile">
+    <img src="https://monkeytype-svg.vercel.app/api/streak?username=nihaltp" alt="Monkeytype Streak"/>
+  </a>
+</details>
+
+<details>
+  <summary>
     🏅 Holopin Badges
   </summary>
   <a href="https://holopin.io/@nihaltp" title="View Holopin Profile">
