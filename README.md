@@ -171,11 +171,13 @@
   <summary>
     Monkeytype Snake
   </summary>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-light.svg" />
-    <img alt="monkeytype-snake" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-dark.svg" />
-  </picture>
+  <a href="https://github.com/nihaltp/monkeytype-snk" title="View GitHub Repository for monkeytype-snake">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-light.svg" />
+      <img alt="monkeytype-snake" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-dark.svg" />
+    </picture>
+  </a>
 </details>
 
 <details>
