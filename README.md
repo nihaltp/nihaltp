@@ -169,6 +169,17 @@
 
 <details>
   <summary>
+    Monkeytype Snake
+  </summary>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-light.svg" />
+    <img alt="monkeytype-snake" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-dark.svg" />
+  </picture>
+</details>
+
+<details>
+  <summary>
     🏅 Holopin Badges
   </summary>
   <a href="https://holopin.io/@nihaltp" title="View Holopin Profile">
