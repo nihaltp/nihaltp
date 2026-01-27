@@ -57,6 +57,7 @@ jobs:
           fi
 
   check_monkeytype_contribution:
+    needs: check_github_contribution
     runs-on: ubuntu-latest
     outputs:
       contributed: ${{ steps.check.outputs.contributed }}
