@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  check_contribution:
+  check_github_contribution:
     runs-on: ubuntu-latest
     outputs:
       contributed: ${{ steps.check.outputs.contributed }}
@@ -17,7 +17,7 @@ jobs:
       - name: Install jq
         run: sudo apt-get install -y jq
 
-      - name: Check recent contributions
+      - name: Check github recent contributions
         id: check
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
@@ -56,9 +56,35 @@ jobs:
             echo "contributed=false" >> $GITHUB_OUTPUT
           fi
 
+  check_monkeytype_contribution:
+    runs-on: ubuntu-latest
+    outputs:
+      contributed: ${{ steps.check.outputs.contributed }}
+    steps:
+      - name: Check monkeytype recent contributions
+        id: check
+        env:
+          USERNAME: nihaltp
+        run: |
+          RESPONSE=$(curl -s "https://api.monkeytype.com/users/${USERNAME}/profile?isUid=false")
+          TOTAL=$(echo $RESPONSE | jq '.data.testActivity.testsByDays | .[-1:] | add // 0')
+
+          if [ "$TOTAL" -gt 0 ]; then
+            echo "contributed=true" >> $GITHUB_OUTPUT
+          else
+            echo "contributed=false" >> $GITHUB_OUTPUT
+          fi
+
   run_snake:
-    needs: check_contribution
-    if: needs.check_contribution.outputs.contributed == 'true'
+    needs: check_github_contribution
+    if: needs.check_github_contribution.outputs.contributed == 'true'
     permissions:
       contents: write
     uses: ./.github/workflows/snake.yml
+
+  run_monkeytype_snake:
+    needs: check_monkeytype_contribution
+    if: needs.check_monkeytype_contribution.outputs.contributed == 'true'
+    permissions:
+      contents: write
+    uses: ./.github/workflows/monkeytype.yml
