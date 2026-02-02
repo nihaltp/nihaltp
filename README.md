@@ -128,7 +128,7 @@
 </a>
 
 ![Profile Hits](https://komarev.com/ghpvc/?username=nihaltp&color=009dff&label=PROFILE+HITS&style=for-the-badge)
-
+![](https://hit.yhype.me/github/profile?account_id=105560649)
 <picture>
   <source
     src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"
