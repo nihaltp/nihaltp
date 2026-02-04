@@ -58,6 +58,7 @@ jobs:
 
   check_monkeytype_contribution:
     needs: check_github_contribution
+    if: needs.check_github_contribution.outputs.contributed == 'true'
     runs-on: ubuntu-latest
     outputs:
       contributed: ${{ steps.check.outputs.contributed }}
