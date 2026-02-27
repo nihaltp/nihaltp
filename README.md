@@ -111,14 +111,14 @@
 # 🏆 GitHub Trophies
 <picture>
   <source
-    src="https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
+    src="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://github-profile-trophy.vercel.app/?username=nihaltp&theme=buefy&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
+    src="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=buefy&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-profile-trophy.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true" />
+  <img src="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true" />
 </picture>
 
 ## Connect
