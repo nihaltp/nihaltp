@@ -4,95 +4,95 @@
 
 <picture>
   <source
-    src="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true"
+    srcset="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=buefy&hide_border=true"
+    srcset="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=buefy&hide_border=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />  <img src="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true" />
+  />  <img srcset="https://github-readme-stats-nihaltp.vercel.app/api?username=nihaltp&show_icons=true&count_private=true&theme=radical&hide_border=true" />
 </picture>
 <picture>
   <source
-    src="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=radical&hide_border=true"
+    srcset="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=radical&hide_border=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=buefy&hide_border=true"
+    srcset="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=buefy&hide_border=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
   <img
-    src="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=buefy&hide_border=true"
+    srcset="https://streak-stats-nihaltp.vercel.app?user=nihaltp&theme=radical&hide_border=true"
     alt="GitHub streak stats"
   />
 </picture>
 
 <picture>
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=radical"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=radical"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=buefy"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=buefy"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=radical" />
+  <img srcset="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nihaltp&theme=radical" />
 </picture>
 <picture>
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=radical"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=radical"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=buefy"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=buefy"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=radical" />
+  <img srcset="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nihaltp&theme=radical" />
 </picture>
 <picture>
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=radical"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=radical"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=buefy"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=buefy"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=radical" />
+  <img srcset="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nihaltp&theme=radical" />
 </picture>
 <picture>
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=radical"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=radical"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=buefy"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=buefy"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=radical" />
+  <img srcset="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=nihaltp&theme=radical" />
 </picture>
 <picture>
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=radical&utcOffset=5.3"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=radical&utcOffset=5.3"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=buefy&utcOffset=5.3"
+    srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=buefy&utcOffset=5.3"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=radical&utcOffset=5.3" />
+  <img srcset="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nihaltp&theme=radical&utcOffset=5.3" />
 </picture>
 
 <picture>
   <source
-    src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&hide_border=true&area=true&hide_title=true&bg_color=ffffff&color=000000&line=7957d5&point=7957d5"
+    srcset="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&hide_border=true&area=true&hide_title=true&bg_color=ffffff&color=000000&line=7957d5&point=7957d5"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true" height="250" alt="Activity Graph" />
+  <img srcset="https://github-readme-activity-graph.vercel.app/graph?username=nihaltp&theme=redical&hide_border=true&area=true&hide_title=true" height="250" alt="Activity Graph" />
 </picture>
 
 # 🔝 Top Contributed Repo
@@ -111,14 +111,14 @@
 # 🏆 GitHub Trophies
 <picture>
   <source
-    src="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
+    srcset="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=buefy&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
+    srcset="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=buefy&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true" />
+  <img srcset="https://github-profile-trophy-tawny.vercel.app/?username=nihaltp&theme=radical&no-bg=true&column=4&margin-w=4&margin-h=4&no-frame=true" />
 </picture>
 
 ## Connect
@@ -131,20 +131,20 @@
 ![](https://hit.yhype.me/github/profile?account_id=105560649)
 <picture>
   <source
-    src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"
+    srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=ffffff&quoteColor=7957d5&authorColor=ff3860&symbolColor=f1e05a"
+    srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=ffffff&quoteColor=7957d5&authorColor=ff3860&symbolColor=f1e05a"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
+  <img srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" src="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" src="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-light.svg" />
-  <img alt="github-snake" src="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-light.svg" />
+  <img alt="github-snake" srcset="https://github.com/nihaltp/nihaltp/blob/output/snake/github-snake-dark.svg" />
 </picture>
 
 <details>
@@ -161,6 +161,7 @@
   <a href="https://monkeytype.com/profile/nihaltp" title="View Monkeytype Profile">
     <img src="https://img.shields.io/badge/Monkeytype-FECC00?style=for-the-badge&logo=monkeytype&logoColor=black" alt="Monkeytype Profile"/>
   </a>
+
 
   <a href="https://monkeytype.com/profile/nihaltp" title="View Monkeytype Profile">
     <img src="https://monkeytype-svg.vercel.app/api/streak?username=nihaltp" alt="Monkeytype Streak"/>
@@ -195,9 +196,9 @@
   </summary>
   <a href="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&redirect=true">
     <picture>
-      <source media="(prefers-color-scheme: dark)" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
-      <source media="(prefers-color-scheme: light)" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=ffffff&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
-      <img alt="Spotify Currently Playing" src="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
+      <source media="(prefers-color-scheme: light)" srcset="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=ffffff&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
+      <img alt="Spotify Currently Playing" srcset="https://spotify-github-profile.kittinanx.com/api/view?uid=31rrhb6l3mxoqubvebynbqoda7b4&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true&profanity=false&bar_color=53b14f&bar_color_cover=true" />
     </picture>
   </a>
 </details>
