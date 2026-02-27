@@ -161,8 +161,7 @@
   <a href="https://monkeytype.com/profile/nihaltp" title="View Monkeytype Profile">
     <img src="https://img.shields.io/badge/Monkeytype-FECC00?style=for-the-badge&logo=monkeytype&logoColor=black" alt="Monkeytype Profile"/>
   </a>
-
-
+  <br>
   <a href="https://monkeytype.com/profile/nihaltp" title="View Monkeytype Profile">
     <img src="https://monkeytype-svg.vercel.app/api/streak?username=nihaltp" alt="Monkeytype Streak"/>
   </a>
