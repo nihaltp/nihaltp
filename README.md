@@ -98,14 +98,14 @@
 # 🔝 Top Contributed Repo
 <picture>
   <source
-    src="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false"
+    srcset="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&hide_border=true&limit=10&hide_contributor_rank=false"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    src="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=buefy&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false"
+    srcset="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=buefy&hide_border=true&limit=10&hide_contributor_rank=false"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&combine_all_yearly_contributions=true&hide_border=true&limit=10&hide_contributor_rank=false" />
+  <img srcset="https://github-contributor-stats.vercel.app/api?username=nihaltp&theme=radical&hide_border=true&limit=10&hide_contributor_rank=false" />
 </picture>
 
 # 🏆 GitHub Trophies
