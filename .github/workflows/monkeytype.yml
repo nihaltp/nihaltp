@@ -24,7 +24,7 @@ jobs:
             ./snake_monkeytype/monkeytype-snake-light.svg?palette=github-light&color_snake=#0ea5e9&color_dots=#e0f2fe,#bae6fd,#7dd3fc,#38bdf8,#0284c7&color_background=#f8fafc
       
       - name: Push the SVG to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: .
