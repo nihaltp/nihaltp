@@ -165,12 +165,6 @@
   <a href="https://monkeytype.com/profile/nihaltp" title="View Monkeytype Profile">
     <img src="https://monkeytype-svg.vercel.app/api/streak?username=nihaltp" alt="Monkeytype Streak"/>
   </a>
-</details>
-
-<details>
-  <summary>
-    Monkeytype Snake
-  </summary>
   <a href="https://github.com/nihaltp/monkeytype-snk" title="View GitHub Repository for monkeytype-snake">
     <picture>
       <source media="(prefers-color-scheme: dark)" src="https://github.com/nihaltp/nihaltp/blob/output/snake_monkeytype/monkeytype-snake-dark.svg" />
